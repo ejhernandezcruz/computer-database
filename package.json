@@ -1,0 +1,22 @@
+{
+  "name": "computer-database",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Test automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test-headed": "npx cypress run --headed"
+  },
+  "author": "Edward Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.6.0",
+    "esbuild": "^0.17.10"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
